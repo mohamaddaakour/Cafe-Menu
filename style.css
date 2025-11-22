@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(premium_photo-1675435644687-562e8042b9db.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 20px 0;
+}
+
+.container {
+    background-color: burlywood;
+    width: 50%;
+    min-height: 100vh;
+    margin: auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.date {
+    text-align: center;
+    margin-top: 20px;
+}
+
+hr {
+    margin-top: 30px;
+    height: 5px;
+    background-color: brown;
+    border: none;
+}
+
+.plate {
+    margin-top: 30px;
+    width: 100%;
+    text-align: right; 
+}
+
+.name {
+    display: inline-block;
+    width: 70%; 
+    font-weight: 300;
+    text-align: left; 
+}
+
+.price {
+    display: inline-block;
+    width: 29%; 
+    font-weight: 300;
+    text-align: right; 
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 30px; 
+}
+
+a:hover {
+    color: brown;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:active {
+    color: red;
+}
